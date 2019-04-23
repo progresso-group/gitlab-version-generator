@@ -1,6 +1,6 @@
 {
   "name": "@progresso/gitlab-release-generator",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Creates a json document for the gitlab release api from a changelog document.",
   "main": "createRelease.js",
   "repository": {

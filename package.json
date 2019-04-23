@@ -1,0 +1,14 @@
+{
+  "name": "gitlab-release-generator",
+  "version": "1.0.0",
+  "description": "Creates a json document for the gitlab release api from a changelog document.",
+  "main": "createRelease.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Lukic",
+  "license": "ISC",
+  "dependencies": {
+    "argparse": "^1.0.10"
+  }
+}

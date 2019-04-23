@@ -39,5 +39,13 @@ exports.parseArgs = function() {
         }
     );
 
+    parser.addArgument(
+        ['-f', '--file'],
+        {
+            help: 'The target json file.',
+            defaultValue: "release.json"
+        }
+    );
+
     return parser.parseArgs();
 }

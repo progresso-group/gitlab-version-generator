@@ -1,15 +1,22 @@
 {
   "name": "@progresso/gitlab-release-generator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Creates a json document for the gitlab release api from a changelog document.",
   "main": "createRelease.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:progresso-group/gitlab-version-generator.git"
+  },
   "scripts": {
-    "start": "node createRelease.js",
+    "start": "node ./bin/create-release",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ivan Lukic",
   "license": "ISC",
   "dependencies": {
     "argparse": "^1.0.10"
+  },
+  "bin": {
+    "create-release": "./bin/create-release"
   }
 }

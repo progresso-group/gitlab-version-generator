@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+'use strict';
+
+const parser = require("../argParser");
+const creator = require("../createRelease");
+
+creator.createRelease(parser.parseArgs());

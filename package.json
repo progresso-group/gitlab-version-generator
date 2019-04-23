@@ -4,6 +4,7 @@
   "description": "Creates a json document for the gitlab release api from a changelog document.",
   "main": "createRelease.js",
   "scripts": {
+    "start": "node createRelease.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ivan Lukic",

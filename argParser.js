@@ -1,7 +1,7 @@
 exports.parseArgs = function() {
     var ArgumentParser = require('argparse').ArgumentParser;
     var parser = new ArgumentParser({
-        version: '1.1.1',
+        version: '1.1.2',
         addHelp:true,
         description: 'Gitlab release generator'
       });

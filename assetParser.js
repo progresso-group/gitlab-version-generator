@@ -5,7 +5,7 @@ exports.parseAssets = function(assetsData) {
         var splitted = assetsData[asset].split("::");
         var key = splitted[0];
         var value = splitted[1];
-        links.push( { [key] : value })
+        links.push( { name : key, url: value })
     }
 
     return links;
